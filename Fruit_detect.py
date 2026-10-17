@@ -57,4 +57,4 @@ try:
 finally:
     cap.release()
     ser.close()
-    cv2.destroyAllWindows()
+    cv2.destroyAllWindows() 

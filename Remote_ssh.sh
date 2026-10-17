@@ -14,9 +14,8 @@ export QT_QPA_PLATFORM=xcb
 [ -f "$HOME/.Xauthority" ] && export XAUTHORITY="$HOME/.Xauthority"
 
 exec python3 Fruit_detect.py "$@"
+
 # exec python3 M01_MIX.py "$@"
-
-
 
 # bash Remote_ssh.sh
 # source Svenv/bin/activate

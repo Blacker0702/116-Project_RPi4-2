@@ -1,9 +1,9 @@
-# RPi4-2：水果／食物影像辨識（Fruit Detect）
+# RPi4-2：水果／食物影像辨識（Fruit Detect）與重量感測 回傳
  
 > Diet JARVIS 的「看」：在 Raspberry Pi 4 上以 YOLO（ONNX 模型）即時辨識鏡頭畫面，將辨識到的類別名稱透過 UART 序列埠送出。
  
 ---
- 
+
 ## 功能概覽
  
 1. 以 USB 鏡頭擷取即時影像（640 × 480）。
